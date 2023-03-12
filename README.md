@@ -4,4 +4,5 @@ These scripts  allow you to Create system-versioned temporal table with Identity
 
 1. Create and Insert data into System-Versioned table. Use scripts: CreateSystemVersionedtables.sql, InsertDataIntoSystemVersionedTable.sql.
 2. Update same column, example column OrderQty, using Identity column. Create Procedure Sales.UpdateOrderQty_In_SalesOrderDetail_SV.
-3. For Update data in column OrderQty need to EXECUTE Sales.UpdateOrderQty_In_SalesOrderDetail_SV @IdIdentity,@OrderQty
+    For Update data in column OrderQty need to EXECUTE Sales.UpdateOrderQty_In_SalesOrderDetail_SV @IdIdentity,@OrderQty
+    
