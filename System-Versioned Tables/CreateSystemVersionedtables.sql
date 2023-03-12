@@ -31,7 +31,7 @@ CREATE TABLE [Sales].[SalesOrderDetail_SV](
 ) ON [PRIMARY]
 WITH
 (
-SYSTEM_VERSIONING = ON (HISTORY_TABLE = [Sales].[SalesOrderDetail_SVHistory])
+SYSTEM_VERSIONING = ON (HISTORY_TABLE = [Sales].[SalesOrderDetail_SVHistory], DATA_CONSISTENCY_CHECK = ON)
 )
 GO
 
