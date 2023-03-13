@@ -11,3 +11,4 @@ These scripts  allow you to Create system-versioned temporal table with Identity
     
 5. For precise removal by IdIdentity (delete in both Current and History tables ), need to create procedure in DeleteByIdIdentity.sql
    and than: EXECUTE [Sales].[DeleteByIdIdentityFromTSV] @IdIdentity  
+6. For Daily Clear Job, need to use Procedure: EXECUTE [Sales].[ClearHistoryTableOlderThan] @days, which will create by script: ClearHistoryTableOlderThan.sql
